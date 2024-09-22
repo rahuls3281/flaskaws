@@ -10,5 +10,3 @@ def home():
 @app.route("/testing")
 def testing():
     return {"message":"This is testing API"}
-
-app.run()
